@@ -15,22 +15,23 @@
             </header> 
             <div>
                 <img src="img/table_tennis.jpg" alt="table tennis image"/> 
+                <!--Photo by Sascha Düser: https://www.pexels.com/photo/white-pingpong-ball-beneath-red-table-tennis-paddle-187329/ -->
             </div>   
             <main id="main" class="columns">
                 <section>
                     <p>Please enter the name of the player below and click on the button next to it to submit it.</p>
                     <label for="player"></label>
-                    <input type="text" id="player" placeholder="Player's name" autofocus>
-                    <button id="add" class="myButton">Add the Player</button>
-                    <ul id="lis"></ul>
+                    <input type="text" id="player" placeholder="Player's name" autofocus/>
+                    <button id="add">Add the Player</button>
+                    <ul id="list-player"></ul>
                 </section>
                 <section>
                     <p>Please click on the button below to generate the random pairings.</p>
-                    <button class="myButton" id="generate">Generate Pairings</button>
+                    <button id="generate">Generate Pairings</button>
                     <button id="winner">Show me the Winner</button>
-                    <div class="win">
-                        <ul class="gen" id="list"></ul>
-                        <ul class="res" id="list2"></ul>
+                    <div class="result-wrapper">
+                        <ul class="list-pairings" id="list-pairs"></ul>
+                        <ul class="list-winners" id="list-win"></ul>
                     </div>
                 </section>
             </main> <!--end of content-->

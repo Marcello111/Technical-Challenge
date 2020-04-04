@@ -15,7 +15,7 @@
         
         let item = d.createElement("li");
         item.append("Player " + count + ": " + input.value);
-        d.getElementById("lis").append(item);
+        d.getElementById("list-player").append(item);
         input.value = "";
         count++; 
 
@@ -40,7 +40,7 @@
         for (let j = 0; j < finalPairing.length; j++) {
             let item = d.createElement("li");
             item.append("Pairing: " + finalPairing[j][0] + " vs " + finalPairing[j][1]);
-            d.getElementById("list").append(item);
+            d.getElementById("list-pairs").append(item);
         }
         
     winner.addEventListener("click", () => {
@@ -50,7 +50,7 @@
             winner = finalPairing[i][Math.floor(Math.random()*finalPairing[i].length)];
             let item = d.createElement("li");
             item.append(winner);
-            d.getElementById("list2").append(item)
+            d.getElementById("list-win").append(item)
         }
             
         });

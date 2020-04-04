@@ -6,6 +6,7 @@
     let count = 1;
     let generate = d.getElementById("generate");
     let finalPairing = [];
+    let winner = d.getElementById("winner");
 
 
      button.addEventListener ("click", () => {
@@ -41,6 +42,18 @@
             item.append("Pairing: " + finalPairing[j][0] + " vs " + finalPairing[j][1]);
             d.getElementById("list").append(item);
         }
+        
+    winner.addEventListener("click", () => {
+
+    
+        for (let i = 0; i < finalPairing.length; i++) {
+            winner = finalPairing[i][Math.floor(Math.random()*finalPairing[i].length)];
+            let item = d.createElement("li");
+            item.append(winner);
+            d.getElementById("list2").append(item)
+        }
+            
+        });
 
     });
 

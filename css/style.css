@@ -29,28 +29,42 @@ img {
 /* Main */
 
 main { 	
-   background-color: white;
-   margin: 5px auto;
-   border-radius: 10px;
+  background-color: white;
+  margin: 5px auto;
+  border-radius: 10px;
+}
+
+p {
+	color: rgb(63, 43, 45);
 }
 
 .columns {
-   display: flex;
+  display: flex;
 }
 
 section {
-   width: 50%;
-   padding: 30px;
-   background-color: rgb(232, 226, 225);
-   margin: 5px;
+  width: 50%;
+  padding: 30px;
+  background-color: rgb(232, 226, 225);
+  margin: 5px;
+  border-bottom: 3px solid rgb(180, 8, 34);
+}
+
+.player-section {
+  margin-left: 10px;
+}
+
+.generate-section {
+  margin-right: 10px;
 }
 
 input {
-   font-size: 15px;
-   font-weight: bold;
-   border-radius: 4px;
-   padding: 6px;
-   border: 1px solid grey;
+  width: 180px;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 4px;
+  padding: 6px;
+  border: 1px solid grey;
 }
 
 ::placeholder {
@@ -58,6 +72,7 @@ input {
 }
 
 button {
+  width: 180px;
   background-color: rgb(252, 210, 1);
   border: 1px solid rgb(204, 201, 2);
   border-radius: 6px;
@@ -67,7 +82,7 @@ button {
   font-family: Arial;
   font-size: 15px;
   font-weight: bold;
-  padding: 6px 24px;
+  padding: 6px;
   text-decoration: none;	
 }
 
@@ -90,10 +105,6 @@ li {
   padding: 4px;
 }
 
-.result-wrapper {
-  display: flex;	
-}
-
 .list-pairings {
   width: 75%;
 }
@@ -106,15 +117,12 @@ li {
   color:rgb(180, 8, 34);
 }
 
-p {
-	color: rgb(63, 43, 45);
-}
 
 /* Footer */
 
 footer {
 	text-align: center;
-	font-size: 12px;
+	font-size: 10px;
 	background-color:  white;
 	color: black;
 	padding: 3px;

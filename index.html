@@ -18,20 +18,20 @@
                 <!--Photo by Sascha Düser: https://www.pexels.com/photo/white-pingpong-ball-beneath-red-table-tennis-paddle-187329/ -->
             </div>   
             <main id="main" class="columns">
-                <section>
+                <section class="player-section">
                     <p>Please enter the name of the player below and click on the button next to it to submit it.</p>
                     <label for="player"></label>
                     <input type="text" id="player" placeholder="Player's name" autofocus/>
                     <button id="add">Add the Player</button>
                     <ul id="list-player"></ul>
                 </section>
-                <section>
+                <section class="generate-section">
                     <p>Please click on the buttons below to generate the random pairings and to see the winners.</p>
                     <button id="generate">Generate Pairings</button>
                     <button id="winner">Show me the Winner</button>
-                    <div class="result-wrapper">
-                        <ul class="list-pairings" id="list-pairs"></ul>
-                        <ul class="list-winners" id="list-win"></ul>
+                    <div class="columns">
+                        <ul id="list-pairs" class="list-pairings"></ul>
+                        <ul id="list-win" class="list-winners"></ul>
                     </div>
                 </section>
             </main> <!--end of content-->

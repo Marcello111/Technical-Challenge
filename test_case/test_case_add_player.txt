@@ -1,0 +1,24 @@
+Test Case Name: 
+User is able to add player
+
+Prerequisites: 
+Latest version of Google Chrome, Mozilla Firefox, Opera, Microsoft Edge
+
+Test Data:
+player's name: Jack
+
+Test Steps: 
+1. Open Google Chrome/Mozilla Firefox/Opera/Microsoft Edge
+2. Go to https://marcell.developme.space/1_Table_T/challenge.html
+3. Enter "Jack" into the input field
+4. Click on the "Add the Player" button
+
+Expected Result:
+"Player 1: Jack" is displayed below the input field
+
+Actual Result:
+"Player 1: Jack" is displayed below the input field
+
+Test Result:
+Pass
+

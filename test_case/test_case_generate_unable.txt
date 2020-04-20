@@ -1,0 +1,27 @@
+Test Case Name: 
+User is unable to generate pairings
+
+Prerequisites: 
+Latest version of Google Chrome, Mozilla Firefox, Opera, Microsoft Edge
+
+Test Data:
+player's name: Jack
+
+Test Steps: 
+1. Open Google Chrome/Mozilla Firefox/Opera/Microsoft Edge
+2. Go to https://marcell.developme.space/1_Table_T/challenge.html
+3. Enter "Jack" into the input field
+4. Click on the "Add the Player" button
+5. Click on the "Generate Pairings" button
+
+Expected Result:
+The following popup message is displayed: "The submitted players' number must be even".
+Pairings are not displayed on the screen.
+
+Actual Result:
+The following popup message is displayed: "The submitted players' number must be even".
+Pairings are not displayed on the screen.
+
+Test Result:
+Pass
+
